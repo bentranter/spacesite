@@ -137,6 +137,7 @@ func uploadDir() {
 			// to detect that it's text/css, and will instead use text/plain.
 			// Safari won't parse a stylesheet with that Content-Type if we're
 			// in strict mode.
+			//
 			// Determine the file extension.
 			ext := ""
 			if strings.Index(filename, ".") != -1 {

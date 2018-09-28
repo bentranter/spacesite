@@ -9,3 +9,5 @@
     SPACES_BUCKET=my-website-bucket-name
 3. Get this code: `go get -u github.com/bentranter/spacesite`
 4. Run this: `go run main.go`
+
+You then need to manually log into the Digital Ocean Spaces control panel, and enable the CDN for your new bucket, since I haven't figure out how to do it programmatically yet. I'll add it eventually though... maybe.
